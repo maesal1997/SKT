@@ -11,4 +11,14 @@ package git;
  */
 public class Prueba {
     
+    private String primerAtributo;
+
+    public String getPrimerAtributo() {
+        return primerAtributo;
+    }
+
+    public void setPrimerAtributo(String primerAtributo) {
+        this.primerAtributo = primerAtributo;
+    }
+    
 }
