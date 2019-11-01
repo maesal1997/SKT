@@ -12,7 +12,15 @@ package git;
 public class Prueba {
     
     private String primerAtributo;
+    private String segundoAtributo;
 
+    public String getSegundoAtributo() {
+        return segundoAtributo;
+    }
+
+    public void setSegundoAtributo(String segundoAtributo) {
+        this.segundoAtributo = segundoAtributo;
+    }
     public String getPrimerAtributo() {
         return primerAtributo;
     }
@@ -21,4 +29,7 @@ public class Prueba {
         this.primerAtributo = primerAtributo;
     }
     
+    // gitignore io
+    
 }
+
