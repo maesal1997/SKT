@@ -21,7 +21,7 @@ public class Prueba {
     public String getQuintoAtributo() {
         return quintoAtributo;
     }
-
+    // se hicieron merge con dev2 
     public void setQuintoAtributo(String quintoAtributo) {
         this.quintoAtributo = quintoAtributo;
     }
