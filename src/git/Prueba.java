@@ -15,7 +15,15 @@ public class Prueba {
     private String segundoAtributo;
     private String terceroAtributo;
     private String cuartoAtributo;
+    private String sextoAtributo;
+    public String getSextoAtributo() {
+        return sextoAtributo;
+    }
 
+    public void setSextoAtributo(String sextoAtributo) {
+        this.sextoAtributo = sextoAtributo;
+    }
+    
     public String getCuartoAtributo() {
         return cuartoAtributo;
     }
