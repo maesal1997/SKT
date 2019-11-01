@@ -14,6 +14,15 @@ public class Prueba {
     private String primerAtributo;
     private String segundoAtributo;
     private String terceroAtributo;
+    private String cuartoAtributo;
+
+    public String getCuartoAtributo() {
+        return cuartoAtributo;
+    }
+
+    public void setCuartoAtributo(String cuartoAtributo) {
+        this.cuartoAtributo = cuartoAtributo;
+    }
 
     public String getTerceroAtributo() {
         return terceroAtributo;
