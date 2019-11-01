@@ -16,7 +16,8 @@ public class Prueba {
     private String terceroAtributo;
     private String cuartoAtributo;
     private String quintoAtributo;
-
+    private String sextoAtributo;
+    
     public String getQuintoAtributo() {
         return quintoAtributo;
     }
@@ -25,6 +26,14 @@ public class Prueba {
         this.quintoAtributo = quintoAtributo;
     }
 
+    public String getSextoAtributo() {
+        return sextoAtributo;
+    }
+
+    public void setSextoAtributo(String sextoAtributo) {
+        this.sextoAtributo = sextoAtributo;
+    }
+    
     public String getCuartoAtributo() {
         return cuartoAtributo;
     }
